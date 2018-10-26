@@ -9,9 +9,10 @@ import { ImgComponent } from "./img/img.component";
 import { CourseComponent } from './course/course.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponent, ImgComponent, CourseComponent, NavbarComponent, SidebarComponent],
+  declarations: [AppComponent, FirstComponent, ImgComponent, CourseComponent, NavbarComponent, SidebarComponent, FooterComponent],
   imports: [BrowserModule, FormsModule],
   providers: [CoursesServiece],
   bootstrap: [AppComponent]
