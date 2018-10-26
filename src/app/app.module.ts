@@ -7,9 +7,10 @@ import { FirstComponent } from "./first/first.component";
 import { CoursesServiece } from "./courses.service";
 import { ImgComponent } from "./img/img.component";
 import { CourseComponent } from './course/course.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponent, ImgComponent, CourseComponent],
+  declarations: [AppComponent, FirstComponent, ImgComponent, CourseComponent, NavbarComponent],
   imports: [BrowserModule, FormsModule],
   providers: [CoursesServiece],
   bootstrap: [AppComponent]
